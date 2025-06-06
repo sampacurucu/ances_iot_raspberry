@@ -1,0 +1,165 @@
+2025-05-04 11:19:22,768 - INFO - Base de datos creada exitosamente.
+2025-05-04 11:19:22,768 - INFO - 
+2025-05-04 11:19:22,768 - INFO - Ejecutando evaluación de reglas energéticas...
+2025-05-04 11:19:22,768 - INFO - 
+2025-05-04 11:19:22,768 - INFO - 🔍 Buscando reglas energéticas en la base de datos...
+2025-05-04 11:19:22,768 - INFO - 
+2025-05-04 11:19:22,769 - INFO - Main ejecutándose, todo está bien.
+2025-05-04 11:19:22,769 - INFO - 
+2025-05-04 11:19:22,769 - INFO - 📋 Se encontraron 3 regla(s) energética(s).
+2025-05-04 11:19:22,769 - INFO - 
+2025-05-04 11:19:22,769 - INFO - 📌 Procesando regla:
+2025-05-04 11:19:22,769 - INFO - 
+2025-05-04 11:19:22,769 - INFO - {'idRule': 1, 'idDevice': ['1', '2'], 'idCondition': ['COND1', 'COND2'], 'operatorRule': 'OR', 'timeLimit': 10}
+2025-05-04 11:19:22,769 - INFO - 
+2025-05-04 11:19:22,769 - INFO - ⚙️ Verificando dispositivo ID: 1
+2025-05-04 11:19:22,769 - INFO - 
+2025-05-04 11:19:22,769 - INFO - ✅ Evaluando condición: batteryLevel == 36.69 -> False
+2025-05-04 11:19:22,769 - INFO - 
+2025-05-04 11:19:22,769 - INFO - ✅ Evaluando condición: batteryLevel < 35.17 -> True
+2025-05-04 11:19:22,769 - INFO - 
+2025-05-04 11:19:22,769 - INFO - 🧠 Resultado global con operador OR: True
+2025-05-04 11:19:22,769 - INFO - 
+2025-05-04 11:19:22,769 - INFO - 🔁 Frecuencia ya está en 10, no se actualiza.
+2025-05-04 11:19:22,769 - INFO - 
+2025-05-04 11:19:22,769 - INFO - ⚙️ Verificando dispositivo ID: 2
+2025-05-04 11:19:22,769 - INFO - 
+2025-05-04 11:19:22,769 - INFO - ✅ Evaluando condición: batteryLevel == 36.69 -> False
+2025-05-04 11:19:22,769 - INFO - 
+2025-05-04 11:19:22,769 - INFO - ✅ Evaluando condición: batteryLevel < 35.17 -> True
+2025-05-04 11:19:22,769 - INFO - 
+2025-05-04 11:19:22,769 - INFO - 🧠 Resultado global con operador OR: True
+2025-05-04 11:19:22,769 - INFO - 
+2025-05-04 11:19:22,769 - INFO - 🔁 Frecuencia ya está en 10, no se actualiza.
+2025-05-04 11:19:22,769 - INFO - 
+2025-05-04 11:19:22,770 - INFO - 📌 Procesando regla:
+2025-05-04 11:19:22,770 - INFO - 
+2025-05-04 11:19:22,770 - INFO - {'idRule': 2, 'idDevice': ['3'], 'idCondition': ['COND5'], 'operatorRule': 'OR', 'timeLimit': 15}
+2025-05-04 11:19:22,770 - INFO - 
+2025-05-04 11:19:22,770 - INFO - ⚙️ Verificando dispositivo ID: 3
+2025-05-04 11:19:22,770 - INFO - 
+2025-05-04 11:19:22,770 - INFO - ✅ Evaluando condición: batteryLevel == 43.23 -> True
+2025-05-04 11:19:22,770 - INFO - 
+2025-05-04 11:19:22,770 - INFO - 🧠 Resultado global con operador OR: True
+2025-05-04 11:19:22,770 - INFO - 
+2025-05-04 11:19:22,770 - INFO - 🔁 Frecuencia ya está en 15, no se actualiza.
+2025-05-04 11:19:22,770 - INFO - 
+2025-05-04 11:19:22,770 - INFO - 📌 Procesando regla:
+2025-05-04 11:19:22,770 - INFO - 
+2025-05-04 11:19:22,770 - INFO - {'idRule': 3, 'idDevice': ['10', '8', '9'], 'idCondition': ['COND2'], 'operatorRule': 'AND', 'timeLimit': 23}
+2025-05-04 11:19:22,770 - INFO - 
+2025-05-04 11:19:22,770 - INFO - ⚙️ Verificando dispositivo ID: 10
+2025-05-04 11:19:22,770 - INFO - 
+2025-05-04 11:19:22,770 - INFO - ✅ Evaluando condición: batteryLevel < 35.17 -> False
+2025-05-04 11:19:22,770 - INFO - 
+2025-05-04 11:19:22,770 - INFO - 🧠 Resultado global con operador AND: False
+2025-05-04 11:19:22,770 - INFO - 
+2025-05-04 11:19:22,770 - INFO - ❌ Regla no cumplida. Frecuencia no se actualiza, se mantiene en 5.
+2025-05-04 11:19:22,770 - INFO - 
+2025-05-04 11:19:22,770 - INFO - ⚙️ Verificando dispositivo ID: 8
+2025-05-04 11:19:22,770 - INFO - 
+2025-05-04 11:19:22,770 - INFO - ✅ Evaluando condición: batteryLevel < 35.17 -> False
+2025-05-04 11:19:22,771 - INFO - 
+2025-05-04 11:19:22,771 - INFO - 🧠 Resultado global con operador AND: False
+2025-05-04 11:19:22,771 - INFO - 
+2025-05-04 11:19:22,771 - INFO - ❌ Regla no cumplida. Frecuencia no se actualiza, se mantiene en 5.
+2025-05-04 11:19:22,771 - INFO - 
+2025-05-04 11:19:22,771 - INFO - ⚙️ Verificando dispositivo ID: 9
+2025-05-04 11:19:22,771 - INFO - 
+2025-05-04 11:19:22,771 - INFO - ✅ Evaluando condición: batteryLevel < 35.17 -> False
+2025-05-04 11:19:22,771 - INFO - 
+2025-05-04 11:19:22,771 - INFO - 🧠 Resultado global con operador AND: False
+2025-05-04 11:19:22,771 - INFO - 
+2025-05-04 11:19:22,771 - INFO - ❌ Regla no cumplida. Frecuencia no se actualiza, se mantiene en 5.
+2025-05-04 11:19:22,771 - INFO - 
+2025-05-04 11:19:22,771 - INFO - ✅ Finalizó el procesamiento de reglas energéticas.
+2025-05-04 11:19:22,771 - INFO - 
+2025-05-04 11:19:32,776 - INFO - Main ejecutándose, todo está bien.
+2025-05-04 11:19:32,776 - INFO - 
+2025-05-04 11:20:27,010 - INFO - Base de datos creada exitosamente.
+2025-05-04 11:20:27,010 - INFO - 
+2025-05-04 11:20:27,010 - INFO - Ejecutando evaluación de reglas energéticas...
+2025-05-04 11:20:27,010 - INFO - 
+2025-05-04 11:20:27,011 - INFO - Main ejecutándose, todo está bien.
+2025-05-04 11:20:27,011 - INFO - 
+2025-05-04 11:20:27,012 - INFO - 🔍 Buscando reglas energéticas en la base de datos...
+2025-05-04 11:20:27,012 - INFO - 
+2025-05-04 11:20:27,012 - INFO - 📋 Se encontraron 3 regla(s) energética(s).
+2025-05-04 11:20:27,012 - INFO - 
+2025-05-04 11:20:27,012 - INFO - 📌 Procesando regla:
+2025-05-04 11:20:27,012 - INFO - 
+2025-05-04 11:20:27,012 - INFO - {'idRule': 1, 'idDevice': ['1', '2'], 'idCondition': ['COND1', 'COND2'], 'operatorRule': 'OR', 'timeLimit': 10}
+2025-05-04 11:20:27,012 - INFO - 
+2025-05-04 11:20:27,012 - INFO - ⚙️ Verificando dispositivo ID: 1
+2025-05-04 11:20:27,012 - INFO - 
+2025-05-04 11:20:27,013 - INFO - ✅ Evaluando condición: batteryLevel == 36.69 -> False
+2025-05-04 11:20:27,013 - INFO - 
+2025-05-04 11:20:27,013 - INFO - ✅ Evaluando condición: batteryLevel < 35.17 -> True
+2025-05-04 11:20:27,013 - INFO - 
+2025-05-04 11:20:27,013 - INFO - 🧠 Resultado global con operador OR: True
+2025-05-04 11:20:27,013 - INFO - 
+2025-05-04 11:20:27,013 - INFO - 🔁 Frecuencia ya está en 10, no se actualiza.
+2025-05-04 11:20:27,013 - INFO - 
+2025-05-04 11:20:27,013 - INFO - ⚙️ Verificando dispositivo ID: 2
+2025-05-04 11:20:27,013 - INFO - 
+2025-05-04 11:20:27,013 - INFO - ✅ Evaluando condición: batteryLevel == 36.69 -> False
+2025-05-04 11:20:27,013 - INFO - 
+2025-05-04 11:20:27,013 - INFO - ✅ Evaluando condición: batteryLevel < 35.17 -> True
+2025-05-04 11:20:27,013 - INFO - 
+2025-05-04 11:20:27,013 - INFO - 🧠 Resultado global con operador OR: True
+2025-05-04 11:20:27,013 - INFO - 
+2025-05-04 11:20:27,013 - INFO - 🔁 Frecuencia ya está en 10, no se actualiza.
+2025-05-04 11:20:27,013 - INFO - 
+2025-05-04 11:20:27,013 - INFO - 📌 Procesando regla:
+2025-05-04 11:20:27,013 - INFO - 
+2025-05-04 11:20:27,013 - INFO - {'idRule': 2, 'idDevice': ['3'], 'idCondition': ['COND5'], 'operatorRule': 'OR', 'timeLimit': 15}
+2025-05-04 11:20:27,013 - INFO - 
+2025-05-04 11:20:27,014 - INFO - ⚙️ Verificando dispositivo ID: 3
+2025-05-04 11:20:27,014 - INFO - 
+2025-05-04 11:20:27,014 - INFO - ✅ Evaluando condición: batteryLevel == 43.23 -> True
+2025-05-04 11:20:27,014 - INFO - 
+2025-05-04 11:20:27,014 - INFO - 🧠 Resultado global con operador OR: True
+2025-05-04 11:20:27,014 - INFO - 
+2025-05-04 11:20:27,014 - INFO - 🔁 Frecuencia ya está en 15, no se actualiza.
+2025-05-04 11:20:27,014 - INFO - 
+2025-05-04 11:20:27,014 - INFO - 📌 Procesando regla:
+2025-05-04 11:20:27,014 - INFO - 
+2025-05-04 11:20:27,014 - INFO - {'idRule': 3, 'idDevice': ['10', '8', '9'], 'idCondition': ['COND2'], 'operatorRule': 'AND', 'timeLimit': 23}
+2025-05-04 11:20:27,014 - INFO - 
+2025-05-04 11:20:27,014 - INFO - ⚙️ Verificando dispositivo ID: 10
+2025-05-04 11:20:27,014 - INFO - 
+2025-05-04 11:20:27,014 - INFO - ✅ Evaluando condición: batteryLevel < 35.17 -> False
+2025-05-04 11:20:27,014 - INFO - 
+2025-05-04 11:20:27,014 - INFO - 🧠 Resultado global con operador AND: False
+2025-05-04 11:20:27,014 - INFO - 
+2025-05-04 11:20:27,014 - INFO - ❌ Regla no cumplida. Frecuencia no se actualiza, se mantiene en 5.
+2025-05-04 11:20:27,014 - INFO - 
+2025-05-04 11:20:27,014 - INFO - ⚙️ Verificando dispositivo ID: 8
+2025-05-04 11:20:27,014 - INFO - 
+2025-05-04 11:20:27,014 - INFO - ✅ Evaluando condición: batteryLevel < 35.17 -> False
+2025-05-04 11:20:27,014 - INFO - 
+2025-05-04 11:20:27,014 - INFO - 🧠 Resultado global con operador AND: False
+2025-05-04 11:20:27,014 - INFO - 
+2025-05-04 11:20:27,014 - INFO - ❌ Regla no cumplida. Frecuencia no se actualiza, se mantiene en 5.
+2025-05-04 11:20:27,014 - INFO - 
+2025-05-04 11:20:27,015 - INFO - ⚙️ Verificando dispositivo ID: 9
+2025-05-04 11:20:27,015 - INFO - 
+2025-05-04 11:20:27,015 - INFO - ✅ Evaluando condición: batteryLevel < 35.17 -> False
+2025-05-04 11:20:27,015 - INFO - 
+2025-05-04 11:20:27,015 - INFO - 🧠 Resultado global con operador AND: False
+2025-05-04 11:20:27,015 - INFO - 
+2025-05-04 11:20:27,015 - INFO - ❌ Regla no cumplida. Frecuencia no se actualiza, se mantiene en 5.
+2025-05-04 11:20:27,015 - INFO - 
+2025-05-04 11:20:27,015 - INFO - ✅ Finalizó el procesamiento de reglas energéticas.
+2025-05-04 11:20:27,015 - INFO - 
+2025-05-04 11:22:25,080 - DEBUG - diff parser start
+2025-05-04 11:22:25,080 - DEBUG - line_lengths old: 70; new: 70
+2025-05-04 11:22:25,080 - DEBUG - -> code[equal] old[1:8] new[1:8]
+2025-05-04 11:22:25,081 - DEBUG - copy old[2:8] new[1:8]
+2025-05-04 11:22:25,081 - DEBUG - -> code[replace] old[9:9] new[9:9]
+2025-05-04 11:22:25,081 - DEBUG - parse_part from 9 to 25 (to 28 in part parser)
+2025-05-04 11:22:25,081 - DEBUG - -> code[equal] old[10:70] new[10:70]
+2025-05-04 11:22:25,082 - DEBUG - copy old[29:65] new[26:65]
+2025-05-04 11:22:25,082 - DEBUG - parse_part from 66 to 67 (to 67 in part parser)
+2025-05-04 11:22:25,082 - DEBUG - parse_part from 68 to 70 (to 69 in part parser)
+2025-05-04 11:22:25,082 - DEBUG - diff parser end
